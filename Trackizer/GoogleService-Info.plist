@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <!-- Your existing Firebase configuration -->
+        <key>CLIENT_ID</key>
+        <string>147014139903-8d475aati72cfpm02f0aahqiu3i3k1qn.apps.googleusercontent.com</string>
+        <key>REVERSED_CLIENT_ID</key>
+        <string>com.googleusercontent.apps.147014139903-8d475aati72cfpm02f0aahqiu3i3k1qn</string>
+        <key>API_KEY</key>
+        <string>AIzaSyCltARIhqen43ddAvqcRpLzZxp5lZdgeWA</string>
+        <key>GCM_SENDER_ID</key>
+        <string>147014139903</string>
+        <key>PLIST_VERSION</key>
+        <string>1</string>
+        <key>BUNDLE_ID</key>
+        <string>com.brandonparenteau.FortiftyAi</string>
+        <key>PROJECT_ID</key>
+        <string>fortifyai</string>
+        <key>STORAGE_BUCKET</key>
+        <string>fortifyai.firebasestorage.app</string>
+        <key>IS_ADS_ENABLED</key>
+        <false/>
+        <key>IS_ANALYTICS_ENABLED</key>
+        <false/>
+        <key>IS_APPINVITE_ENABLED</key>
+        <true/>
+        <key>IS_GCM_ENABLED</key>
+        <true/>
+        <key>IS_SIGNIN_ENABLED</key>
+        <true/>
+        <key>GOOGLE_APP_ID</key>
+        <string>1:147014139903:ios:35cae97ea53b37409df1ca</string>
+        
+        <!-- Your existing transport security settings -->
+        <key>NSAppTransportSecurity</key>
+        <dict>
+            <key>NSAllowsArbitraryLoads</key>
+            <true/>
+            <key>NSAllowsLocalNetworking</key>
+            <true/>
+        </dict>
+        
+        <!-- Add these new keys -->
+        <key>NSLocalNetworkUsageDescription</key>
+        <string>This app needs to access your local network to connect to the development server.</string>
+        
+        <key>NSBonjourServices</key>
+        <array>
+            <string>_local._tcp</string>
+        </array>
+        
+        <key>CFBundleURLTypes</key>
+        <array>
+            <dict>
+                <key>CFBundleURLSchemes</key>
+                <array>
+                    <string>plaid-YOUR-APP-BUNDLE-IDENTIFIER</string>
+                </array>
+            </dict>
+        </array>
+        
+        <key>CFBundleURLTypes</key>
+        <array>
+            <dict>
+                <key>CFBundleURLSchemes</key>
+                <array>
+                    <string>fortifyai-plaid</string>
+                </array>
+                <key>CFBundleURLName</key>
+                <string>com.brandonparenteau.fortifyai</string>
+            </dict>
+        </array>
+
+    </dict>
+</plist>
