@@ -30,7 +30,8 @@ struct IconGridView: View {
         "drop.fill",
         "bolt.fill",
         "film.fill",
-        "book.fill"
+        "book.fill",
+        "hammer"
     ]
     
     let columns = Array(repeating: GridItem(.flexible(), spacing: 15), count: 4)
