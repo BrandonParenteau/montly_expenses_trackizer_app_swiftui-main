@@ -98,8 +98,6 @@ struct ToolsView: View {
         switch name {
         /* case "Credit Score":
             CreditScoreView()
-        case "Net Worth":
-            NetWorthView()
         case "Investments":
             InvestmentsView()
         case "Budgeting":
@@ -110,6 +108,8 @@ struct ToolsView: View {
             LoansView()
         case "Spending Analysis":
             SpendingAnalysisView() */
+        case "Net Worth":
+            NetWorthView()
         case "Financial Calculators":
             FinancialCalculatorsView()
         default:

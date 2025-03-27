@@ -25,6 +25,8 @@
 		9F59BF502D6518DC003505AF /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F59BF4F2D6518DC003505AF /* OnboardingView.swift */; };
 		9F59BF522D6585C1003505AF /* AIAssistantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F59BF512D6585C1003505AF /* AIAssistantView.swift */; };
 		9F59BF542D66E33A003505AF /* TransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F59BF532D66E33A003505AF /* TransactionViewModel.swift */; };
+		9FB0422D2D93B44D00515965 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB0422C2D93B44D00515965 /* Launch Screen.storyboard */; };
+		9FB0423F2D95028100515965 /* DonutChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB0423E2D95028100515965 /* DonutChart.swift */; };
 		9FFA7EB52D908AB800E3B201 /* AddCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFA7EB42D908AB800E3B201 /* AddCategoryView.swift */; };
 		9FFA7ED12D90B19900E3B201 /* BudgetRowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFA7ED02D90B19900E3B201 /* BudgetRowModel.swift */; };
 		9FFA7ED72D91131A00E3B201 /* SearchComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFA7ED62D91131A00E3B201 /* SearchComponents.swift */; };
@@ -117,6 +119,8 @@
 		9F59BF4F2D6518DC003505AF /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		9F59BF512D6585C1003505AF /* AIAssistantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIAssistantView.swift; sourceTree = "<group>"; };
 		9F59BF532D66E33A003505AF /* TransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewModel.swift; sourceTree = "<group>"; };
+		9FB0422C2D93B44D00515965 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		9FB0423E2D95028100515965 /* DonutChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutChart.swift; sourceTree = "<group>"; };
 		9FFA7EB42D908AB800E3B201 /* AddCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryView.swift; sourceTree = "<group>"; };
 		9FFA7ED02D90B19900E3B201 /* BudgetRowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetRowModel.swift; sourceTree = "<group>"; };
 		9FFA7ED62D91131A00E3B201 /* SearchComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchComponents.swift; sourceTree = "<group>"; };
@@ -187,6 +191,7 @@
 		9F2399022D7E0AB300D63029 /* MenuView */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = MenuView; sourceTree = "<group>"; };
 		9F59BF552D66E426003505AF /* TransactionsListView */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = TransactionsListView; sourceTree = "<group>"; };
 		9F5CF5EB2D8F1877006A1896 /* ManualEntry */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ManualEntry; sourceTree = "<group>"; };
+		9FB0422E2D94F70400515965 /* NetWorth Tracking */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "NetWorth Tracking"; sourceTree = "<group>"; };
 		9FFA7EE32D92598D00E3B201 /* CoreData */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = CoreData; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
@@ -298,6 +303,7 @@
 				CB1A67A32A5D98E7007E34C4 /* Inter-Medium.ttf */,
 				CB1A67A62A5D98E9007E34C4 /* Inter-Regular.ttf */,
 				CB1A67A42A5D98E8007E34C4 /* Inter-SemiBold.ttf */,
+				9FB0422C2D93B44D00515965 /* Launch Screen.storyboard */,
 			);
 			path = Font;
 			sourceTree = "<group>";
@@ -305,6 +311,7 @@
 		CB1A679B2A5D9851007E34C4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9FB0422E2D94F70400515965 /* NetWorth Tracking */,
 				9F5CF5EB2D8F1877006A1896 /* ManualEntry */,
 				9F2399022D7E0AB300D63029 /* MenuView */,
 				9F2398FF2D6B9B7D00D63029 /* AIAssistantView */,
@@ -381,6 +388,7 @@
 				9FFA7ED82D91151D00E3B201 /* SearchTransactionsView.swift */,
 				9FFA7EDA2D91154D00E3B201 /* CategoryAnalysisView.swift */,
 				9FFA7EDC2D9119AF00E3B201 /* PieChartView.swift */,
+				9FB0423E2D95028100515965 /* DonutChart.swift */,
 			);
 			path = UICommon;
 			sourceTree = "<group>";
@@ -583,6 +591,7 @@
 				9F2399022D7E0AB300D63029 /* MenuView */,
 				9F59BF552D66E426003505AF /* TransactionsListView */,
 				9F5CF5EB2D8F1877006A1896 /* ManualEntry */,
+				9FB0422E2D94F70400515965 /* NetWorth Tracking */,
 				9FFA7EE32D92598D00E3B201 /* CoreData */,
 			);
 			name = Trackizer;
@@ -681,6 +690,7 @@
 			files = (
 				CB1A67A82A5D98E9007E34C4 /* Inter-SemiBold.ttf in Resources */,
 				CB1A67A92A5D98E9007E34C4 /* Inter-Bold.ttf in Resources */,
+				9FB0422D2D93B44D00515965 /* Launch Screen.storyboard in Resources */,
 				CB1A67782A5D981B007E34C4 /* Preview Assets.xcassets in Resources */,
 				CB1A67752A5D981B007E34C4 /* Assets.xcassets in Resources */,
 				CB1A67AA2A5D98E9007E34C4 /* Inter-Regular.ttf in Resources */,
@@ -733,6 +743,7 @@
 				CBC7431A2A5F281000C502BF /* HomeView.swift in Sources */,
 				9FFA7EB52D908AB800E3B201 /* AddCategoryView.swift in Sources */,
 				9FFA7ED12D90B19900E3B201 /* BudgetRowModel.swift in Sources */,
+				9FB0423F2D95028100515965 /* DonutChart.swift in Sources */,
 				CB1A67B72A5DA660007E34C4 /* SignUpView.swift in Sources */,
 				CB1A67B52A5DA3E5007E34C4 /* SocialSignupView.swift in Sources */,
 				9F59BF4C2D613F9F003505AF /* PlaidViewModel.swift in Sources */,
@@ -939,6 +950,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.png;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -971,6 +983,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.png;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
