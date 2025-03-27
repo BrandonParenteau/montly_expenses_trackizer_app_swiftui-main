@@ -236,7 +236,7 @@
 		CB1A67642A5D9817007E34C4 = {
 			isa = PBXGroup;
 			children = (
-				CB1A676F2A5D9817007E34C4 /* Trackizer */,
+				CB1A676F2A5D9817007E34C4 /* Thrive */,
 				CB1A67802A5D981C007E34C4 /* TrackizerTests */,
 				CB1A678A2A5D981C007E34C4 /* TrackizerUITests */,
 				CB1A676E2A5D9817007E34C4 /* Products */,
@@ -253,7 +253,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CB1A676F2A5D9817007E34C4 /* Trackizer */ = {
+		CB1A676F2A5D9817007E34C4 /* Thrive */ = {
 			isa = PBXGroup;
 			children = (
 				9F59BEF12D546B78003505AF /* GoogleService-Info.plist */,
@@ -268,7 +268,7 @@
 				CB1A67742A5D981B007E34C4 /* Assets.xcassets */,
 				CB1A67762A5D981B007E34C4 /* Preview Content */,
 			);
-			path = Trackizer;
+			path = Thrive;
 			sourceTree = "<group>";
 		};
 		CB1A67762A5D981B007E34C4 /* Preview Content */ = {
@@ -658,7 +658,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CB1A67682A5D9817007E34C4 /* Build configuration list for PBXProject "Trackizer" */;
+			buildConfigurationList = CB1A67682A5D9817007E34C4 /* Build configuration list for PBXProject "Thrive" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -942,11 +942,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Trackizer/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Thrive/Preview Content\"";
 				DEVELOPMENT_TEAM = ZJAYCNZL77;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Trackizer/Info.plist;
+				INFOPLIST_FILE = Thrive/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Thrive;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -975,11 +977,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Trackizer/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Thrive/Preview Content\"";
 				DEVELOPMENT_TEAM = ZJAYCNZL77;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Trackizer/Info.plist;
+				INFOPLIST_FILE = Thrive/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Thrive;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -1072,7 +1076,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CB1A67682A5D9817007E34C4 /* Build configuration list for PBXProject "Trackizer" */ = {
+		CB1A67682A5D9817007E34C4 /* Build configuration list for PBXProject "Thrive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CB1A678F2A5D981C007E34C4 /* Debug */,
